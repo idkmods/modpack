@@ -1,0 +1,179 @@
+{
+  "Armor_Sets": [
+    {
+      "name": "Leather Armor Set",
+      "head": "minecraft:leather_helmet",
+      "body": "minecraft:leather_chestplate",
+      "legs": "minecraft:leather_leggings",
+      "feet": "minecraft:leather_boots",
+      "head_nbt": {},
+      "body_nbt": {},
+      "legs_nbt": {},
+      "feet_nbt": {},
+      "always spawn full set": false,
+      "weight": 20
+    },
+    {
+      "name": "Iron Armor Set",
+      "head": "minecraft:iron_helmet",
+      "body": "minecraft:iron_chestplate",
+      "legs": "minecraft:iron_leggings",
+      "feet": "minecraft:iron_boots",
+      "head_nbt": {},
+      "body_nbt": {},
+      "legs_nbt": {},
+      "feet_nbt": {},
+      "always spawn full set": false,
+      "weight": 20
+    },
+    {
+      "name": "Gold Armor Set",
+      "head": "minecraft:golden_helmet",
+      "body": "minecraft:golden_chestplate",
+      "legs": "minecraft:golden_leggings",
+      "feet": "minecraft:golden_boots",
+      "head_nbt": {},
+      "body_nbt": {},
+      "legs_nbt": {},
+      "feet_nbt": {},
+      "always spawn full set": false,
+      "weight": 10
+    },
+    {
+      "name": "Diamond Armor Set",
+      "head": "minecraft:diamond_helmet",
+      "body": "minecraft:diamond_chestplate",
+      "legs": "minecraft:diamond_leggings",
+      "feet": "minecraft:diamond_boots",
+      "head_nbt": {},
+      "body_nbt": {},
+      "legs_nbt": {},
+      "feet_nbt": {},
+      "always spawn full set": false,
+      "weight": 10
+    },
+    {
+      "name": "Chain Mail Armor Set",
+      "head": "minecraft:chainmail_helmet",
+      "body": "minecraft:chainmail_chestplate",
+      "legs": "minecraft:chainmail_leggings",
+      "feet": "minecraft:chainmail_boots",
+      "head_nbt": {},
+      "body_nbt": {},
+      "legs_nbt": {},
+      "feet_nbt": {},
+      "always spawn full set": false,
+      "weight": 10
+    }
+  ],
+  "MainHand/Weapon": [
+    {
+      "itemID": "minecraft:wooden_sword",
+      "nbt": {},
+      "weight": 20
+    },
+    {
+      "itemID": "minecraft:iron_sword",
+      "nbt": {},
+      "weight": 20
+    },
+    {
+      "itemID": "minecraft:golden_sword",
+      "nbt": {},
+      "weight": 10
+    },
+    {
+      "itemID": "minecraft:diamond_sword",
+      "nbt": {},
+      "weight": 10
+    }
+  ],
+  "OffHand": [
+    {
+      "itemID": "minecraft:feather",
+      "nbt": {},
+      "weight": 20
+    },
+    {
+      "itemID": "minecraft:map",
+      "nbt": {},
+      "weight": 20
+    },
+    {
+      "itemID": "minecraft:stick",
+      "nbt": {},
+      "weight": 10
+    },
+    {
+      "itemID": "minecraft:skull:1",
+      "nbt": {},
+      "weight": 10
+    },
+    {
+      "itemID": "minecraft:skull:3",
+      "nbt": {
+        "SkullOwner": "Gen_Deathrow"
+      },
+      "weight": 10
+    },
+    {
+      "itemID": "minecraft:skull:3",
+      "nbt": {
+        "SkullOwner": "Darkosto"
+      },
+      "weight": 10
+    }
+  ],
+  "Tipped_Arrows_Effects": [
+    {
+      "CustomName": "Slowness",
+      "nbt": {},
+      "weight": 5,
+      "ticks": 60,
+      "TippedArrowsPotions": {
+        "potionID": "slowness"
+      }
+    },
+    {
+      "CustomName": "Harmful",
+      "nbt": {},
+      "weight": 10,
+      "ticks": 20,
+      "TippedArrowsPotions": {
+        "potionID": "instant_damage"
+      }
+    },
+    {
+      "CustomName": "Harmful",
+      "nbt": {},
+      "weight": 5,
+      "ticks": 30,
+      "TippedArrowsPotions": {
+        "potionID": "nausea"
+      }
+    },
+    {
+      "CustomName": "Poisonous",
+      "nbt": {},
+      "weight": 10,
+      "ticks": 30,
+      "TippedArrowsPotions": [
+        {
+          "potionID": "poison"
+        },
+        {
+          "potionID": "weakness"
+        }
+      ]
+    },
+    {
+      "CustomName": "Weakness",
+      "nbt": {},
+      "weight": 25,
+      "ticks": 30,
+      "TippedArrowsPotions": {
+        "potionID": "weakness"
+      }
+    }
+  ]
+}
