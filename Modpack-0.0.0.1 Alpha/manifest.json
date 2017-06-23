@@ -1,0 +1,18 @@
+{
+  "minecraft": {
+    "version": "1.10.2",
+    "modLoaders": [
+      {
+        "id": "forge-12.18.3.2316",
+        "primary": true
+      }
+    ]
+  },
+  "manifestType": "minecraftModpack",
+  "manifestVersion": 1,
+  "name": "Modpack",
+  "version": "0.0.0.1 Alpha",
+  "author": "darknight618",
+  "files": [],
+  "overrides": "overrides"
+}
